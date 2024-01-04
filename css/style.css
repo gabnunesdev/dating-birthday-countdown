@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   max-height: 100vh;
-  background-image: radial-gradient(rgb(10, 10, 10), rgb(0, 0, 0));
+  background-color: #FF0000;
   color: whitesmoke;
   padding-bottom: 100px;
 }
