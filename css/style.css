@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  background-image: radial-gradient(rgb(10, 10, 10), rgb(0, 0, 0));
+  color: whitesmoke;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 4.5rem;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
